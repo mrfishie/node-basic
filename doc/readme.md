@@ -4,23 +4,24 @@ The node-basic package contains many features for BASIC. For newcomers, check ou
 
  - **[Getting Started Guide](started.md)**
  - **[Language](language)**
-   - Introduction
-   - Command reference
-   - Function reference
-   - Constant reference
-   - Operator reference
-   - Examples
+   - [Introduction](language/introduction.md)
+   - [Command reference](language/commands.md)
+   - [Function reference](language/functions.md)
+   - [Constant reference](language/constants.md)
+   - [Operator reference](language/operators.md)
+   - [Examples](language/examples.md)
  - **[Parser](parser)**
-   - API reference
-   - Examples
+   - [API reference](parser/api.md)
+   - [Examples](parser/api.md)
  - **[Executor](executor)**
-   - API reference
-   - Examples
-   - Creating a custom IO/drawing interface
+   - [API reference](executor/api.md)
+   - [Examples](executor/examples.md)
+   - [Creating a custom IO/drawing interface](executor/interface.md)
  - **[Extending the language](extending)**
-    - Adding a command
-    - Adding a function or constant
-    - Adding an operator
-    - Adding a statement
+    - [Adding a command](extending/command.md)
+    - [Adding a function or constant](extending/function.md)
+    - [Adding an operator](extending/operator.md)
+    - [Adding a statement](extending/statement.md)
+
 - **[API reference](api.md)**
 - **[Examples](examples.md)**
