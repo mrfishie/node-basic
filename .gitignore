@@ -5,6 +5,7 @@ logs
 .idea
 
 data/filesystem.json
+build
 
 # Runtime data
 pids

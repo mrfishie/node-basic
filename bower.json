@@ -1,0 +1,30 @@
+{
+  "name": "basic",
+  "main": "bundle.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mrfishie/node-basic",
+  "authors": [
+    "mrfishie <me@mrfishie.com>"
+  ],
+  "description": "A BASIC parser in Javascript",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "basic",
+    "language",
+    "interpreter",
+    "parser",
+    "executor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
