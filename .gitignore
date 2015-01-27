@@ -2,6 +2,10 @@
 logs
 *.log
 
+.idea
+
+data/filesystem.json
+
 # Runtime data
 pids
 *.pid

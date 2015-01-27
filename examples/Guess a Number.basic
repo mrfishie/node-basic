@@ -1,0 +1,35 @@
+    PRINT "Guess a number from 1 to 100"
+    upper = 100
+    lower = 1
+    N = 50
+    Guesses = 0
+
+    Guesses = Guesses + 1
+    IF Guesses > 20 THEN
+        PRINT "Sorry, I give up, you win!"
+        END
+    ENDIF
+    input1:
+    Prompt$ = "Is it greater than " + STR$(N) + "?"
+    INPUT Prompt$, a$
+    IF UPPER$(LEFT$(a$, 1)) = "Y" THEN
+        lower = N
+        N = INT(N + (upper - N) / 2)
+        GOTO input1
+    ENDIF
+    IF UPPER$(LEFT$(a$, 1)) = "N" THEN
+        input2:
+        Prompt$ = "Is it less than " + STR$(N) + "?"
+        INPUT Prompt$, a$
+        IF UPPER$(LEFT$(a$, 1)) = "Y" THEN
+            upper = N
+            N = INT(N - (N - lower) / 2)
+            GOTO input1
+        ENDIF
+        IF UPPER$(LEFT$(a$, 1)) = "N" THEN
+            PRINT "It is", N
+            END
+        ENDIF
+        GOTO input2
+    ENDIF
+    GOTO input1

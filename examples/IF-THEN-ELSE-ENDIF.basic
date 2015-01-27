@@ -1,0 +1,18 @@
+' Sample Program for Beginners
+
+INPUT "Input Age: ", age
+    IF age < 14 THEN
+    PRINT "Junior Programmer"
+ELSE
+    IF age < 18 THEN
+        PRINT "Novice Programmer"
+    ELSE
+        PRINT "Expert Programmer"
+    ENDIF
+ENDIF
+
+IF age >  = 18 THEN
+    PRINT "Eligible to vote"
+ELSE
+    PRINT "Not eligible to vote"
+ENDIF

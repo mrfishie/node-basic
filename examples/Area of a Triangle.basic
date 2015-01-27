@@ -1,0 +1,5 @@
+' Area of a Triangle
+INPUT "Height =", H
+INPUT "Base =", B
+A = B * H / 2
+PRINT "The area is", A

@@ -1,0 +1,13 @@
+10 INPUT "What's your name", name$
+20 IF LEN(name$) = 0 THEN
+    30 GOTO 130
+40 ENDIF
+50 IF UPPER$(name$) = "JOHN" THEN
+    60 FOR i = 0 TO 100 STEP 10
+        70 PRINT "Hello John!"
+    80 NEXT
+90 ELSE
+    100 PRINT "ACCESS DENIED!"
+    110 PRINT "Just Kidding"
+120 ENDIF
+130 PRINT "The End"

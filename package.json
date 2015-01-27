@@ -1,0 +1,29 @@
+{
+  "name": "basic-lang",
+  "version": "0.1.0",
+  "description": "A BASIC parser in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrfishie/node-basic.git"
+  },
+  "keywords": [
+    "basic",
+    "language",
+    "interpreter",
+    "parser",
+    "executor"
+  ],
+  "author": "mrfishie <me@mrfishie.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrfishie/node-basic/issues"
+  },
+  "homepage": "https://github.com/mrfishie/node-basic",
+  "bin": {
+    "basic": "cli/index.js"
+  }
+}
