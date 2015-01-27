@@ -10,8 +10,10 @@ node-basic includes a flexible interface to allow for the parent application to 
 
 <table>
     <tr>
-        <th colspan="4">Install with Node: <code>npm install basic-lang --save</code></th>
-        <th colspan="4">Install with Bower: <code>bower install basic --save</code></th>
+        <th colspan="4">Install with Node:  
+<code>npm install basic-lang --save</code></th>
+        <th colspan="4">Install with Bower:  
+<code>bower install basic --save</code></th>
     </tr>
     <tr>
         <th colspan="8">Check out the Getting Started Guide</th>
