@@ -6,19 +6,19 @@ This API reference contains a list of functions and classes available in the `ba
 ### Navigation
 
  - [basic.parser](#basicparser)
-	 - [Block](#basicparserBlock)
-		 - [Block](#basicparserBlockBlock)
-	 - [AbstractSyntaxTree](#basicparserAbstractSyntaxTree)
+	 - [Block](#basicparserblock)
+		 - [Block](#basicparserblockblock)
+	 - [AbstractSyntaxTree](#basicparserabstractsyntaxtree)
 	 - [statements](#basicparserstatements)
-		 - [ExpressionStatement](#basicparserstatementsExpressionStatement)
-		 - [FunctionStatement](#basicparserstatementsFunctionStatement)
-		 - [NumberStatement](#basicparserstatementsNumberStatement)
-		 - [PointerStatement](#basicparserstatementsPointerStatement)
-		 - [StringStatement](#basicparserstatementsStringStatement)
-		 - [VariableStatement](#basicparserstatementsVariableStatement)
+		 - [ExpressionStatement](#basicparserstatementsexpressionstatement)
+		 - [FunctionStatement](#basicparserstatementsfunctionstatement)
+		 - [NumberStatement](#basicparserstatementsnumberstatement)
+		 - [PointerStatement](#basicparserstatementspointerstatement)
+		 - [StringStatement](#basicparserstatementsstringstatement)
+		 - [VariableStatement](#basicparserstatementsvariablestatement)
 	 - [commands](#basicparsercommands)
- - [IStatement](#basicparserIStatement)
- - [ICommand](#basicparserICommand)
+ - [IStatement](#istatement)
+ - [ICommand](#icommand)
 
 ### basic.parser
 
