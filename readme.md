@@ -16,47 +16,52 @@ node-basic includes a flexible interface to allow for the parent application to 
 <code>bower install basic --save</code></th>
     </tr>
     <tr>
-        <th colspan="8">Check out the Getting Started Guide</th>
+        <th colspan="8">[Check out the Getting Started Guide](doc/starting.md)</th>
     </tr>
     <tr>
-        <th rowspan="11" colspan="2">Read the Documentation:</th>
-        <th colspan="6">Language</th>
+        <th rowspan="11" colspan="2">[Read the Documentation:](doc)</th>
+        <th colspan="6">[Language](doc/language)</th>
     </tr>
     <tr>
-        <td colspan="2">Introduction</td>
-        <td colspan="2">Command reference</td>
-        <td colspan="2">Function reference</td>
+        <td colspan="2">[Introduction](doc/language/introduction.md)</td>
+        <td colspan="2">[Command reference](doc/language/commands.md)</td>
+        <td colspan="2">[Function reference](doc/language/functions.md)</td>
     </tr>
     <tr>
-        <th colspan="6">Parser</th>
+        <td colspan="2">[Constant reference](doc/language/constants.md)</td>
+        <td colspan="2">[Operator reference](doc/language/operators.md)</td>
+        <td colspan="2">[Examples](doc/language/examples.md)</td>
     </tr>
     <tr>
-        <td colspan="3">API reference</td>
-        <td colspan="3">Examples</td>
+        <th colspan="6">[Parser](doc/parser)</th>
     </tr>
     <tr>
-        <th colspan="6">Executor</th>
+        <td colspan="3">[API reference](doc/parser/api.md)</td>
+        <td colspan="3">[Examples](doc/parser/examples.md)</td>
     </tr>
     <tr>
-        <td colspan="3">API reference</td>
-        <td colspan="3">Examples</td>
+        <th colspan="6">[Executor](doc/executor)</th>
     </tr>
     <tr>
-        <td colspan="6">Creating a custom IO/drawing interface</td>
+        <td colspan="3">[API reference](doc/executor/api.md)</td>
+        <td colspan="3">[Examples](doc/executor/examples.md)</td>
     </tr>
     <tr>
-        <th colspan="6">Extending the language</th>
+        <td colspan="6">[Creating a custom IO/drawing interface](doc/executor/interface.md)</td>
     </tr>
     <tr>
-        <td colspan="3">Adding a command</td>
-        <td colspan="3">Adding a function or constant</td>
+        <th colspan="6">[Extending the language](doc/extending)</th>
     </tr>
     <tr>
-        <td colspan="3">Adding an operator</td>
-        <td colspan="3">Adding a statement</td>
+        <td colspan="3">[Adding a command](doc/extending/commands.md)</td>
+        <td colspan="3">[Adding a function or constant](doc/extending/functions.md)</td>
     </tr>
     <tr>
-        <th colspan="3">API reference</th>
-        <th colspan="3">Examples</th>
+        <td colspan="3">[Adding an operator](doc/extending/operators.md)</td>
+        <td colspan="3">[Adding a statement](doc/extending/statements.md)</td>
+    </tr>
+    <tr>
+        <th colspan="3">[API reference](doc/api.md)</th>
+        <th colspan="3">[Examples](doc/examples.md)</th>
     </tr>
 </table>
