@@ -9,57 +9,54 @@ node-basic should be able to run any programs written for iBASIC. While it is cu
 node-basic includes a flexible interface to allow for the parent application to receive all terminal IO and rendering commands. An 'offical' web-based IDE is currently in the works.
 
 <table>
-    <tbody><tr>
-        <th colspan="4">Install with Node:<br><code>npm install basic-lang --save</code></th>
-        <th colspan="4">Install with Bower:<br><code>bower install basic --save</code></th>
+    <tr>
+        <th colspan="4">Install with Node:  
+<code>npm install basic-lang --save</code></th>
+        <th colspan="4">Install with Bower:  
+<code>bower install basic --save</code></th>
     </tr>
     <tr>
-        <th colspan="8"><a href="doc/starting.md">Check out the Getting Started Guide</a></th>
+        <th colspan="8">Check out the Getting Started Guide</th>
     </tr>
     <tr>
-        <th rowspan="12" colspan="2"><a href="doc">Read the Documentation:</a></th>
-        <th colspan="6"><a href="doc/language">Language</a></th>
+        <th rowspan="11" colspan="2">Read the Documentation:</th>
+        <th colspan="6">Language</th>
     </tr>
     <tr>
-        <td colspan="2"><a href="doc/language/introduction.md">Introduction</a></td>
-        <td colspan="2"><a href="doc/language/commands.md">Command reference</a></td>
-        <td colspan="2"><a href="doc/language/functions.md">Function reference</a></td>
+        <td colspan="2">Introduction</td>
+        <td colspan="2">Command reference</td>
+        <td colspan="2">Function reference</td>
     </tr>
     <tr>
-        <td colspan="2"><a href="doc/language/constants.md">Constant reference</a></td>
-        <td colspan="2"><a href="doc/language/operators.md">Operator reference</a></td>
-        <td colspan="2"><a href="doc/language/examples.md">Examples</a></td>
+        <th colspan="6">Parser</th>
     </tr>
     <tr>
-        <th colspan="6"><a href="doc/parser">Parser</a></th>
+        <td colspan="3">API reference</td>
+        <td colspan="3">Examples</td>
     </tr>
     <tr>
-        <td colspan="3"><a href="doc/parser/api.md">API reference</a></td>
-        <td colspan="3"><a href="doc/parser/examples.md">Examples</a></td>
+        <th colspan="6">Executor</th>
     </tr>
     <tr>
-        <th colspan="6"><a href="doc/executor">Executor</a></th>
+        <td colspan="3">API reference</td>
+        <td colspan="3">Examples</td>
     </tr>
     <tr>
-        <td colspan="3"><a href="doc/executor/api.md">API reference</a></td>
-        <td colspan="3"><a href="doc/executor/examples.md">Examples</a></td>
+        <td colspan="6">Creating a custom IO/drawing interface</td>
     </tr>
     <tr>
-        <td colspan="6"><a href="doc/executor/interface.md">Creating a custom IO/drawing interface</a></td>
+        <th colspan="6">Extending the language</th>
     </tr>
     <tr>
-        <th colspan="6"><a href="doc/extending">Extending the language</a></th>
+        <td colspan="3">Adding a command</td>
+        <td colspan="3">Adding a function or constant</td>
     </tr>
     <tr>
-        <td colspan="3"><a href="doc/extending/commands.md">Adding a command</a></td>
-        <td colspan="3"><a href="doc/extending/functions.md">Adding a function or constant</a></td>
+        <td colspan="3">Adding an operator</td>
+        <td colspan="3">Adding a statement</td>
     </tr>
     <tr>
-        <td colspan="3"><a href="doc/extending/operators.md">Adding an operator</a></td>
-        <td colspan="3"><a href="doc/extending/statements.md">Adding a statement</a></td>
+        <th colspan="3">API reference</th>
+        <th colspan="3">Examples</th>
     </tr>
-    <tr>
-        <th colspan="3"><a href="doc/api.md">API reference</a></th>
-        <th colspan="3"><a href="doc/examples.md">Examples</a></th>
-    </tr>
-</tbody></table>
+</table>

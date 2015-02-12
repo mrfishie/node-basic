@@ -36,6 +36,19 @@ exports.run = function(code, ctx, done) {
     }
 
     var ast = exports.parser.parse(code);
-    exports.executor.execute(ast, ctx, done);
+    if (ast.error) {
+        if (done) {
+            process.nextTick(function() {
+                done(ast.error);
+            });
+        }
+        return ctx;
+    }
+    try {
+        exports.executor.execute(ast, ctx, done);
+    } catch (err) {
+        done(err);
+        return ctx;
+    }
     return ctx;
 };

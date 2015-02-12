@@ -5,20 +5,20 @@ This API reference contains a list of functions and classes available in the `ba
 
 ### Navigation
 
- - [basic.parser](#basicparser)
-	 - [Block](#basicparserblock)
-		 - [Block](#basicparserblockblock)
-	 - [AbstractSyntaxTree](#basicparserabstractsyntaxtree)
-	 - [statements](#basicparserstatements)
-		 - [ExpressionStatement](#basicparserstatementsexpressionstatement)
-		 - [FunctionStatement](#basicparserstatementsfunctionstatement)
-		 - [NumberStatement](#basicparserstatementsnumberstatement)
-		 - [PointerStatement](#basicparserstatementspointerstatement)
-		 - [StringStatement](#basicparserstatementsstringstatement)
-		 - [VariableStatement](#basicparserstatementsvariablestatement)
-	 - [commands](#basicparsercommands)
- - [IStatement](#istatement)
- - [ICommand](#icommand)
+ - basic.parser
+	 - Block
+		 - Block
+	 - AbstractSyntaxTree
+	 - statements
+		 - ExpressionStatement
+		 - FunctionStatement
+		 - NumberStatement
+		 - PointerStatement
+		 - StringStatement
+		 - VariableStatement
+	 - commands
+ - IStatement
+ - ICommand
 
 ### basic.parser
 
