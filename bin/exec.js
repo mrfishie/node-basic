@@ -39,7 +39,10 @@ module.exports = function(args) {
         console.log("\nExecuting...");
         console.time('exec');
 
-        basic.executor.execute(ast, function() {
+        basic.executor.execute(ast, function(err) {
+            if (err) {
+                console.log(err instanceof basic.parser.SyntaxError ? "SYNTAX ERROR:" : "ERROR:", err.message);
+            }
             console.log('');
             console.timeEnd('exec');
         });

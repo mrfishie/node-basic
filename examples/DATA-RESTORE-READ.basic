@@ -1,0 +1,15 @@
+DIM S$(3), N(3)
+RESTORE MyData
+FOR i = 1 TO 3
+    READ S$(i), N(i)
+NEXT
+
+FOR i = 1 TO 3
+    PRINT S$(i)
+NEXT
+FOR i = 1 TO 3
+    PRINT N(i)
+NEXT
+
+MyData:
+DATA "one", 1, "two", 2, "three", 3
