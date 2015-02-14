@@ -1,6 +1,6 @@
 {
   "name": "basic-lang",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A BASIC parser in Javascript",
   "main": "index.js",
   "scripts": {
